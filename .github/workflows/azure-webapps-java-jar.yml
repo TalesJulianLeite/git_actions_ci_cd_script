@@ -22,7 +22,7 @@ name: Build and deploy JAR app to Azure Web App
 env:
   AZURE_WEBAPP_NAME: git_actions_ci_cd_script    # set this to the name of your Azure Web App
   JAVA_VERSION: '11'                  # set this to the Java version to use
-  DISTRIBUTION: ubuntu-latest                  # set this to the Java distribution
+  DISTRIBUTION: temurin                # set this to the Java distribution
 
 on:
   push:
